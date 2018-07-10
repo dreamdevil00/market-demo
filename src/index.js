@@ -1,6 +1,6 @@
 /* eslint-disable*/
 
-import './main.scss';
+import './assets/stylesheets/main.scss';
 
 import "babel-polyfill";
 
