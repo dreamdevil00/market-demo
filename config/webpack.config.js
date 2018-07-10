@@ -60,6 +60,7 @@ module.exports = {
     new CleanWebpackPlugin(pathsToClean, cleanOptions),
     new HtmlWebpackPlugin({
       title: 'Demo HTML',
+      template: path.resolve(__dirname, '../src/index.html'),
     }),
     new webpack.ProvidePlugin({
       $: 'jquery',
