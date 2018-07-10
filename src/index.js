@@ -2,6 +2,8 @@
 
 import './main.scss';
 
+import "babel-polyfill";
+
 import 'jquery/dist/jquery.js';
 import 'popper.js/dist/umd/popper.js';
 

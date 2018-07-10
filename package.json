@@ -28,11 +28,15 @@
   },
   "homepage": "https://github.com/dreamdevil00/webpack-starter#readme",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
     "eslint": "^4.19.1",

@@ -100,6 +100,10 @@ module.exports = {
         loader: 'file-loader',
         options: {},
       }],
+    }, {
+      test: /\.js$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader',
     }],
   },
 };
